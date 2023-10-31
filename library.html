@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La biblioteca
+    </title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>    
+    <dialog class="bookInputForm">
+            <form action="get">
+                <label for="title">
+                    <p> Enter the name of the book!</p>
+                </label>
+                <input type="text" name="title" id="title">
+            
+                <label for="author">
+                    <p> Enter the author's name!</p>
+                </label>
+                <input type="text" name="author" id="author">
+
+                <label for="pages">
+                    <p> Enter the number of pages!</p>
+                </label>
+                <input type="number" name="pages" id="pages">
+                <label for="read">
+                    <p>Have you read this book?</p>
+                    <span>Yes</span><input type="checkbox" name="read" id="read" value="true">
+                </label>
+                
+                
+            </form>
+            <div>
+                <button id="submit"> Submit</button>
+                <button id="cancel"> Cancel</button>
+            </div>
+    </dialog>
+    <div class="bookshelf">
+    </div>
+    <button id="testbutton">
+        Click me!
+    </button>
+</body>
+<script src="library.js"></script>
+</html>

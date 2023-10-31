@@ -1,0 +1,16 @@
+body{
+    height:100vh;
+}
+.bookshelf{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    place-items: center;
+}
+.bookCard{
+    display: flex;
+    background-color: pink;
+    width: 200px;
+    height:auto;
+    flex-direction: column;
+}
